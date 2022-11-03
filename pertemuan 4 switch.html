@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Belajar JS</title>
+</head>
+
+<body>
+
+    <h2>Sedang Latihan Belajar smembuat percabangan switch case </h2>
+    <p id = "aic"></p>
+    
+        </body>
+<script>
+   var jawaban = prompt("Silahkan Gacha Hadiah")
+   var hadiah = "";
+
+   switch(jawaban){
+    case"1":
+            hadiah = "Keqing";
+            break;
+    case"2":
+            hadiah = "Warisan Rafathar";
+            break; 
+    case "3":
+            hadiah = "Cindo";
+            break;
+
+        default:
+            document.write("Anda salah bang")
+   }
+   if (hadiah =="")
+   {
+    document.write("<h3>Kamu tidak berhasil ubah nasib</h3>")
+   }
+   else 
+   {
+    document.write("<h3>Semoga dikabulkan tuhan :D </h3>" + hadiah)
+   }
+</script>
+</html>
